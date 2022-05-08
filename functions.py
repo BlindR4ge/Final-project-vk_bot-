@@ -47,7 +47,7 @@ def get_wind_direction(deg):
 
 
 def get_city_id(s_city_name):
-    appid = "fee2f032237baea4ed7328ea3c188911"
+    appid = "Ваш_токен_openweathermap"
     try:
         res = requests.get("http://api.openweathermap.org/data/2.5/find",
                      params={'q': s_city_name, 'type': 'like', 'units': 'metric', 'lang': 'ru', 'APPID': appid})
